@@ -46,7 +46,7 @@ A Python programme that displays your reminders and opens URLs. Simply enter you
 
 This is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the [Issues](https://github.com/Shaun04/hands-free/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests.
 
+Thank you Bhanu Sunka for your contribution.
 <hr>
 
-© 2021 Shaun Mascarenhas.  
 __This project is still in development. There will be a lot of bugs.__
