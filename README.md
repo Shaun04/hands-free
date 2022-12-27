@@ -1,26 +1,52 @@
-# hands-free
-A python program that opens links and pop ups your reminders. Just set your schedule once and the script will take care of things.
-You can add yout daily task/schedule and the program will remind you. If you need to open a link at a particular time just type the link in the program and the link will automatically open at that given time.
+# Hands-free
 
-<h2> Installation guide </h2><br>
-STEP 1. Download and Install python from <a href="https://www.python.org/downloads/"> https://www.python.org/downloads/ </a>. Don't forget to add it to Path.<br>
-STEP 2. Clone the files from this repo.<br>
-STEP 3. Open a cmd prompt or a shell in the folder where the repo is downloaded.<br>
-STEP 4: Then type the following code in the cmd prompt <b>pip install -r requirements.txt</b> <br>
-STEP 5: Open the main.py file and let it run
+A Python programme that displays your reminders and opens URLs. Simply enter your schedule once, and the script will handle the rest. You can add a daily task or plan to the application, and it will remind you. If you need to open a link at a specific time, simply type the link into the program, and the link will open at that moment.
 
-<h5> Use the main.py file to run the script </h5>
-<h3> To add events open the gui.py file and type your data in it. </h3>
+## Installation Guide 💾
+
+1. Download and Install python from [Here.](https://www.python.org/downloads/ "Download Python From Here!")
+   - Don't forget to add path in environment variable
+
+2. Clone this repository or Download.
+
+    ```sh
+    git clone https://github.com/Shaun04/hands-free.git
+    ```
+
+3. Open a cmd prompt or a shell in `hands-free` (downloaded) folder.
+
+4. Then type the following code in the `cmd prompt`
+
+   ```sh
+    pip install -r requirements.txt
+   ```
+
+5. Open the `main.py` file and let it run
+   - Use the `main.py` file to run the script
+
+6. To add events open the `gui.py` file and type your data in it.
+
+## For the program to run on startup on windows, Follow these steps 🔧
   
-<h3> For the program to run on startup on windows follow the steps </h3>
-STEP 1: Open the handsfree.bat file on a text editor
-STEP 2: Copy the path of the files
-STEP 3: Paste the path on the second line after <b>cd </b> (for eg: cd C:\Desktop.....) and save it then copy the file
-STEP 4: Press the windows button + R then  type shell:startup and press enter
-STEP 5: Paste the handsfree.bat.
+1. Open the `handsfree.bat` file on a text editor
+2. Copy the path of the file
+3. Paste the path on the second line after `cd`.
 
-<h4> DONOT CLOSE THE TERMINAL WHEN THE PROGRAM IS RUNNING </h4>
-<h2> CONTRIBUTION </h2>
-Anybody can contribute to this project.
+   ```sh
+   cd C:\Desktop.....
+   ```
 
-<h3> This project is still in development. There will be a lot of bugs. Please raise an issue if you face any bugs. </h3>
+4. Save it then copy the file
+5. Press the Win + R then  type `shell:startup` and press Enter
+6. Paste the `handsfree.bat`
+
+***DO NOT CLOSE THE TERMINAL WHEN THE PROGRAM IS RUNNING***
+
+## Contribution 🫂
+
+This is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the [Issues](https://github.com/Shaun04/hands-free/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests.
+
+<hr>
+
+© 2021 Shaun Mascarenhas.  
+__This project is still in development. There will be a lot of bugs.__
